@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!--Linking BOOTSTRAP CSS and JQuery-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Login</h1>
+        <!--Login Form For Validating the User-->
+        <form id="login-form">
+            <!--Name field-->
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" placeholder="Enter your name" class="form-control" id="name" name="name" required>
+            </div>
+            <!--Email field-->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter your Email" class="form-control" id="email" name="email" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+    </div>
+    <script src="js\login.js"></script>
+</body>
+</html>
