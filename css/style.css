@@ -1,0 +1,29 @@
+body {
+	padding-top: 50px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+form {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #888;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+.btn-default {
+	background-color: #337ab7;
+	color: #fff;
+}
+
+.btn-default:hover {
+	background-color: #286090;
+	color: #fff;
+}
