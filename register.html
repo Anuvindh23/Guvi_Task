@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8">
+	<title>Register</title>
+	<!-- Bootstrap CSS, JQuery and BOOTSTRAP JS with Content Deliver Network (CDN) -->
+	<!--Linked BOOTSTRAP-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<!-- Linked JQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<!-- Linked Bootstrap JS -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container mt-5">
+		<h2>Register - Guvi</h2>
+		<form id="register-form">
+			<div class="form-group">
+				<!--Name field-->
+				<label for="name">Name:</label>
+				<input type="text" class="form-control" id="name" name="name" required>
+			</div>
+				<!--Email field-->
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="email" class="form-control" id="email" name="email" required>
+				<!-- new div to display error message -->
+				<div id="email-error" class="text-danger"></div>
+			</div>
+			<button type="submit" class="btn btn-primary">Register Your Identity</button>
+		</form>
+		<div id = "success"></div>
+	</div>
+	<script src="js/register.js"></script>
+</body>
+</html>
